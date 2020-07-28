@@ -1,0 +1,18 @@
+body{
+  color: #ffff99;
+  background-image: url("http://bigfday.com/blog/wp-content/uploads/2017/04/1434362734_61-700x404.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.a1{
+
+  margin: 10px;
+  color: pink;
+  background-color:  #4d0000;
+
+
+}
+.jumbotron{
+  background-color: #4d0000;
+
+}

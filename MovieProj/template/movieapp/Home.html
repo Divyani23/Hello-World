@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static "css/MovieDesign.css"%}">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <br><br><br>
+    <div class="container">
+
+      <div class="jumbotron">
+        <center>
+        <h1>Welcome in Bollwood Portal</h1>
+      </center>
+      </div>
+<div class="row">
+    <div class="col-sm-6">
+      <center>
+      <a href="/movie">  <input type="Movie List" class="btn btn-primary a1" value="Movie List" ></a><br>
+    <form class="" action="" method="post">
+      {{form.as_p}}
+      {% csrf_token%}
+      <a href="/new"><input type="Add Movie" class="btn btn-primary a1" value="Add Movie"></a>
+    </div>
+    <div class="col-sm-6">
+      <marquee behavior="scroll" direction="left" scrollamount="10"><img src="{% static "image/movie.webp"%}" alt=""></marquee>
+    </div>
+  </div>
+</div>
+</form>
+</body>
+</html>
